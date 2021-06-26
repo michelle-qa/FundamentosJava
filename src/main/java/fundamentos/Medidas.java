@@ -24,7 +24,7 @@ public class Medidas {
             System.out.println("(5) - Tabuada");
             System.out.println("(6) - Fibonacci");
             System.out.println("(7) - Contagem Regressiva");
-            System.out.println("(Z) - Divisao por Zero - Try/Catch");
+            System.out.println("(8) - Divisão por Zero");
             System.out.println("(S) - Sair");
 
             opcao = entrada.nextLine(); // leitura da opção
@@ -44,9 +44,7 @@ public class Medidas {
                 case "7":
                     contagemRegressiva();
                     break;
-                case "z":
-                case "Z":
-                    System.out.println("Divisao por Zero");
+                case "8":
                     divisaoPorZero();
                     break;
                 case "s":
@@ -128,8 +126,11 @@ public class Medidas {
         }
  }
     public static void divisaoPorZero(){
-            System.out.println("Qual é  dividendo? (Número a  ser dividido) ");
-            int
+        System.out.println("Qual é  dividendo? (Número a  ser dividido) ");
+        int dividendo = entrada.nextInt();
+        System.out.println("Qual e o divisor? (Numero que vai dividir o dividendo) ");
+        int divisor = entrada.nextInt();
+
  }
 
 }
